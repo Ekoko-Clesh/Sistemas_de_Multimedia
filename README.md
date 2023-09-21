@@ -9,7 +9,6 @@ O projeto consiste em:
 - Algoritmos de compressão e descompressão de vídeo e áudio.
 - Implementações de codificadores e decodificadores de imagens.
 - Ferramentas para processamento e análise de mídia.
-- Exemplos de aplicação de multimídia em jogos e streaming.
 
 ## Tecnologias Utilizadas
 
