@@ -43,4 +43,4 @@ Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LIC
 
 Sinta-se à vontade para explorar o código-fonte, experimentar com nossos algoritmos de multimídia e contribuir para o desenvolvimento deste projeto emocionante! Se você tiver alguma dúvida ou sugestão, não hesite em abrir uma [issue](https://github.com/seu-usuario/seu-repositorio/issues).
 
-[![GitHub Stars](https://img.shields.io/github/stars/seu-usuario/seu-repositorio.svg?style=flat&logo=github&colorB=blue&label=Stars)](https://github.com/seu-usuario/seu-repositorio/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/Ekoko-Clesh/Sistemas_de_Multimedia.svg?style=flat&logo=github&colorB=blue&label=Stars)](https://github.com/Ekoko-Clesh/Sistemas_de_Multimedia)
