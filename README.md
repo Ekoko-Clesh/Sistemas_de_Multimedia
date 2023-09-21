@@ -1,6 +1,6 @@
-# Projeto de Sistemas de Multimídia
+# Sistemas de Multimídia
 
-![Logo do Projeto](https://example.com/seu-logo.png)
+![Logo do Projeto](inserir-link-do-logo-aqui.png)
 
 Bem-vindo ao repositório de Sistemas de Multimídia! Este projeto é dedicado à pesquisa e desenvolvimento de algoritmos de multimídia para uma variedade de aplicações.
 
@@ -31,9 +31,8 @@ Gostaríamos muito de receber contribuições da comunidade. Se você deseja con
 
 ## Equipe
 
-- [Nome do Colaborador](https://github.com/seu-usuario) - Desenvolvedor
-- [Nome do Colaborador](https://github.com/seu-usuario) - Designer
-- [Nome do Colaborador](https://github.com/seu-usuario) - Pesquisador
+- [Ekoko Clesh](https://github.com/Ekoko-Clesh) - Desenvolvedor
+- [Saide Manuel Saide](https://github.com/saidesaide) - Docente
 
 ## Licença
 
@@ -41,6 +40,6 @@ Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LIC
 
 ---
 
-Sinta-se à vontade para explorar o código-fonte, experimentar com nossos algoritmos de multimídia e contribuir para o desenvolvimento deste projeto emocionante! Se você tiver alguma dúvida ou sugestão, não hesite em abrir uma [issue](https://github.com/seu-usuario/seu-repositorio/issues).
+Sinta-se à vontade para explorar o código-fonte, experimentar nossos algoritmos de multimídia e contribuir para o desenvolvimento deste repositório! Se você tiver alguma dúvida ou sugestão, não hesite em abrir uma [issue](https://github.com/Ekoko-Clesh/Sistemas_de_Multimedia/issues).
 
-[![GitHub Stars](https://github.com/Ekoko-Clesh/Sistemas_de_Multimedia/)
+[![GitHub Stars](https://img.shields.io/github/stars/Ekoko-Clesh/Sistemas_de_Multimedia.svg?style=flat&logo=github&colorB=blue&label=Stars)](https://github.com/Ekoko-Clesh/Sistemas_de_Multimedia/stargazers)
