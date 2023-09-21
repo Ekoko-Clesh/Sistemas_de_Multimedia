@@ -1,7 +1,5 @@
 # Sistemas de Multimídia
 
-![Logo do Projeto](inserir-link-do-logo-aqui.png)
-
 Bem-vindo ao repositório de Sistemas de Multimídia! Este projeto é dedicado à pesquisa e desenvolvimento de algoritmos de multimídia para uma variedade de aplicações.
 
 ## Visão Geral
@@ -15,13 +13,13 @@ O projeto consiste em:
 
 ## Tecnologias Utilizadas
 
-- Linguagens de Programação: C++, Python, Java.
-- Bibliotecas: OpenCV, FFmpeg.
-- Plataformas: Windows, Linux, macOS.
+- Linguagem de Programação: Python.
+- Bibliotecas: OpenCV, Numpy, Matplotlib.
+- Plataforma: Windows.
 
 ## Como Contribuir
 
-Gostaríamos muito de receber contribuições da comunidade. Se você deseja contribuir, siga estas etapas:
+Se você deseja contribuir, siga estas etapas:
 
 1. Faça um fork deste repositório.
 2. Crie sua branch de recursos (`git checkout -b feature/sua-feature`).
