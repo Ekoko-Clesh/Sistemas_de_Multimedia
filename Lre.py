@@ -13,6 +13,28 @@ def codificador(cod_input):
         else:
             codigo += cod_input[i]
         i += 1
-    print(codigo)
+    return codigo
 
-codificador('ABCCCCCCCDA')
+
+def decodificador(codigo_input):
+    decodificado = ""
+    i = 0
+    while i < len(codigo_input):
+        if codigo_input[i] == "!":
+            cont = ""
+            i += 1
+            while i < len(codigo_input) and codigo_input[i].isdigit():
+                cont += codigo_input[i]
+                i += 1
+            caracter = codigo_input[i]
+            decodificado += caracter * int(cont)
+        else:
+            decodificado += codigo_input[i]
+        i += 1
+    return decodificado
+
+codigo = "ABCCCCCCCDA"
+print("Código ", codigo)
+print("Código codificado:", codificador(codigo))
+codigo_decodificado = decodificador(codigo)
+print("Código Decodificado:", codigo_decodificado)
