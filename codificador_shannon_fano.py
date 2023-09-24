@@ -61,11 +61,21 @@ def read_data():
     except FileNotFoundError:
         print("Ficheiro inexistente, forneça nome correcto ")
 
+
+def add_data(data, file_name):
+    with open(file_name + '.txt', 'w+') as file:
+        for k, v in enumerate(data):
+            file.write(data[v])
+            file.write(" ")
+    print(f"Ficheiro de Dados {file_name}.txt foi gerado com sucesso")
+
+
 texto = read_data()
-print(f"{Cor.VERMELHO}INFORMAÇÃO : {texto} {Cor.RESET}")
+# print(f"{Cor.VERMELHO}INFORMAÇÃO : {texto} {Cor.RESET}")
 char_frequencies = calcular_frequencia(texto)
 frequencies = list(char_frequencies.items())
 encoding_table = shannon_fano(frequencies)
-print(f'{Cor.VERDE}Símbolo\t\tFrequência\t\t\tCódigo\t\t\tBit(s){Cor.RESET}')
-for value in encoding_table:
-    print(value,'\t\t\t', char_frequencies[value], '\t\t\t\t\t',encoding_table[value], '\t\t\t', len(encoding_table[value]))
+add_data(encoding_table, 'encoded_data')
+# print(f'{Cor.VERDE}Símbolo\t\tFrequência\t\t\tCódigo\t\t\tBit(s){Cor.RESET}')
+# for value in encoding_table:
+#     print(value,'\t\t\t', char_frequencies[value], '\t\t\t\t\t',encoding_table[value], '\t\t\t', len(encoding_table[value]))
