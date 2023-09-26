@@ -14,7 +14,7 @@ class ShannonFanoNode:
         self.symbol = symbol  # Símbolo do nó
         self.frequency = frequency  # Frequência do símbolo
         self.bitstring = ""  # Sequência de bits associada ao nó
-        self.left = AlgNone  # Nó filho esquerdo
+        self.left = None  # Nó filho esquerdo
         self.right = None  # Nó filho direito
 
 # Função para calcular as frequências dos caracteres no texto
