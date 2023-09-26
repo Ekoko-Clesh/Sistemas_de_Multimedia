@@ -16,7 +16,6 @@ def codificador(cod_input):
     return codigo
 
 
-
 def decodificador(codigo_input):
     decodificado = ""
     i = 0
